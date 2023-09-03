@@ -1,0 +1,53 @@
+{
+  "generator-jhipster": {
+    "skipServer": true,
+    "databaseType": "sql",
+    "devDatabaseType": "sql",
+    "prodDatabaseType": "sql",
+    "authenticationType": "jwt",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-nodejs",
+        "version": "2.0.0"
+      }
+    ],
+    "otherModules": [
+      {
+        "name": "generator-jhipster-nodejs",
+        "version": "2.0.0"
+      }
+    ],
+    "applicationType": "monolith",
+    "baseName": "skillTestTog",
+    "jhipsterVersion": "7.0.1",
+    "skipClient": false,
+    "skipUserManagement": false,
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "testFrameworks": [],
+    "pages": [],
+    "creationTimestamp": 1693747562886,
+    "clientFramework": "angularX",
+    "withAdminUi": true,
+    "clientTheme": "none",
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "clientPackageManager": "npm",
+    "clientThemeVariant": "",
+    "packageName": "com.mycompany.myapp",
+    "cacheProvider": "ehcache",
+    "websocket": false,
+    "searchEngine": false,
+    "buildTool": "maven",
+    "serverPort": "8080",
+    "serviceDiscoveryType": false,
+    "enableHibernateCache": true,
+    "reactive": false,
+    "languages": ["en", "fr"],
+    "entities": ["Post"],
+    "lastLiquibaseTimestamp": 1693748679000
+  }
+}

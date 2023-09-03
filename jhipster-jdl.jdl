@@ -1,0 +1,6 @@
+
+entity Post {
+	userId Integer
+    title String
+    body String
+}
